@@ -11,7 +11,7 @@ const Tours = () => {
                     return (
                         <Tour key={tour.id} {...tour} />
                     );
-                })
+                })}
             </div>
         </section>
     );
